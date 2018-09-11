@@ -1,0 +1,7 @@
+
+set ns [new Simulator]
+$ns at 1 "puts \"hello world\""
+$ns at 1.5 "exit"
+$ns run
+open the terminal and execute the hello.tcl by
+            $ ns hello.tcl
